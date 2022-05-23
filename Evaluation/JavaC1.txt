@@ -1,0 +1,34 @@
+Why String is immutable in java and what is the difference between String and String Builder? And Write some
+of the methods of String class at least 5 with example.
+
+Ans=>String are not primitive data types and it is immutable because it gets unsecure if we make changes or modification in string.
+String=>
+String's are immutable and we cannot change or modifiy it 
+String can be declare one time not after that it will be the same string 
+
+String Builder=>
+As compare to the string, String builder can be modifiy
+While String builder can be reassigned and remodified.
+
+
+Example
+class shubham{
+	public static void main(String[] args){
+	String s="name";
+	System.out.pritln(s)
+
+}
+
+}
+
+
+class shubham{
+	public static void main(String[] args){
+	StringBuilder sb=new StringBuilder("hello")
+	sb.append("shubham")
+	System.out.pritln(sb)
+
+}
+
+}
+
